@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Roll Dice</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS only -->
+</head>
+<body>
+    <div class="container">
+        <h4></h4>
+        <audio src="./audio.mp3"></audio>
+        <div class=" wrapper" class="anim">
+            <div class="dice-player player-0 player-active">
+                <h2 class="name"id="name-0">player 1</h2>
+                <p class="score"id="score-0">43</p>
+                <div class="current">
+                    <p class="current-label">current</p>
+                    <p class="currentScore"id="current-0">0</p>
+                </div>
+            </div>
+            <img src="dice-1.png" alt="playing dice" class="dice">
+            <div class="dice-player player-1">
+                <h2 class="name"id="name-0">player 2</h2>
+                <p class="score"id="score-1">24</p>
+                <div class="current">
+                    <p class="current-label">current</p>
+                    <p class="currentScore"id="current-1">0</p>
+                </div>
+            </div>
+            <button class="btn btn-new">Nouvelle partie</button>
+            <button class="btn-Roll">Lance Le Dée</button>
+                <button class="btn btn-hold">enregister Score</button>
+                
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
